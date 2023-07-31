@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync Files
       uses: SamKirkland/web-deploy@v1
       with:
-        target-server: 54.87.53.72
-        remote-user: ubuntu
+        target-server: 54.224.38.13
+        remote-user: ec2-user
         private-ssh-key: ${{ secrets.SSH_KEY }}
         ssh-port: 22
         destination-path: /var/www/html/
