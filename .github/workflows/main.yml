@@ -1,41 +1,19 @@
-on:
-  push:
-    branches:
-      - main
+on: push
+name: Publish Website Dry Run
 jobs:
-  automatic-deploy:
+  web-deploy:
+    name: 🚀 Deploy Website Every Commit
     runs-on: ubuntu-latest
     steps:
-      - name: Get GitHub Actions IP
-        run: |
-          ip=`curl https://checkip.amazonaws.com`
-          echo $ip
-          echo "github_ip=$ip" >> $GITHUB_ENV
+    - name: 🚚 Get Latest Code
+      uses: actions/checkout@v3
 
-      - name: Add Github Actions IP to security group
-        run: aws ec2 authorize-security-group-ingress --group-id ${{ secrets.AWS_RDS_WHITELIST_SECURITY_GROUP_ID }} --protocol tcp --port 22 --cidr ${{ env.github_ip }}/24
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-
-      - name: Get latest code
-        uses: actions/checkout@v3
-
-      - name: Sync files
-        uses: SamKirkland/web-deploy@v1
-        with:
-          target-server: ${{ secrets.TESTE_HOST }}
-          remote-user: ${{ secrets.TESTE_USER }}
-          private-ssh-key: ${{ secrets.TESTE_KEY }}
-          destination-path: ${{ secrets.TESTE_PATH }}
-
-        
-
-      - name: Remove Github Actions IP from security group
-        run: aws ec2 revoke-security-group-ingress --group-id ${{ secrets.AWS_RDS_WHITELIST_SECURITY_GROUP_ID }} --protocol tcp --port 22 --cidr ${{ env.github_ip }}/24
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-        if: always()
+    - name: 📂 Sync Files
+      uses: SamKirkland/web-deploy@v1
+      with:
+        target-server: 54.87.53.72
+        remote-user: ubuntu
+        private-ssh-key: ${{ secrets.SSH_KEY }}
+        ssh-port: 22
+        destination-path: ~/var/www/html/
+        rsync-options: --dry-run --archive --verbose --compress --delete-after --human-readable --exclude=.git* --exclude=.git/ --exclude=README.md --exclude=readme.md --exclude=.gitignore
