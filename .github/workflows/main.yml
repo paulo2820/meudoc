@@ -13,7 +13,7 @@ jobs:
       with:
         target-server: 54.87.53.72
         remote-user: ubuntu
-        private-ssh-key: ${{ secrets.SSH_KEY }}
+        private-ssh-key: ${{ secrets.TESTE_KEY }}
         ssh-port: 22
         destination-path: ~/var/www/html/
         rsync-options: --dry-run --archive --verbose --compress --delete-after --human-readable --exclude=.git* --exclude=.git/ --exclude=README.md --exclude=readme.md --exclude=.gitignore
