@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <title>PMK - Digital Marketing</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <img src="images/pmk_logo.png" alt="Bootstrap" width="100">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pmk" rel="nofollow">A PMK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#terceirosetor" rel="nofollow">Terceiro
+                            Setor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ferramentas" rel="nofollow">Ferramentas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clientes" rel="nofollow">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato" target="_self" rel="nofollow">Contato</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <ul class="header_list_icon">
+                        <li><img class="header_list_icon_svg" src="images/facebook_icon.svg" alt="Bootstrap"></li>
+                        <li><img class="header_list_icon_svg" src="images/linkedin_icon.svg" alt="Bootstrap"></li>
+                        <li><img class="header_list_icon_svg" src="images/whatsapp_icon.svg" alt="Bootstrap"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- / Header -->
+    <!-- Caroussel -->
+    <div class="container-fluid no_padding">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item img_background_1 active">
+                    <!-- <img src="images/Carousel/fundraising.svg" style="width:100%"> -->
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1 class="yellow">Pioneira em Fundraising no Brasil.</h1>
+                            <p>Somos especialistas em Estratégias de Engajamento, Relacionamento e
+                                Captação de Recursos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item img_background_2">
+                    <!-- <img src="images/Carousel/fazemos.svg" style="width:100%"> -->
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1 class="yellow">O que fazemos de melhor:</h1>
+                            <p>Associações, ONGs e Entidades de Classe</p>
+                            <p><a href="#clientes" class="btn btn-primary">
+                                    <span style="font-size:21px;">Conheça nossos clientes</span>
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item img_background_3">
+                    <!-- <img src="images/Carousel/ferramentas.svg" style="width:100%"> -->
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1 class="yellow">Conheça mais:</h1>
+                            <p>Nossas poderosas Ferramentas</p>
+                            <p><a href="#ferramentas" class="btn btn-primary">
+                                    <span style="font-size:21px;">Aqui estão nossas principais
+                                        ferramentas</span>
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- / Caroussel -->
+
+    <!-- A PMK -->
+    <div class="container-fluid" id="pmk">
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-2">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="fw-bold lh-1 mb-3 red_logo">Na casa dos trinta. Tri. E única.</h1>
+                    <p class="col-lg-12 justify"><strong>A PMK atua há mais de 30 anos nesse mercado e é Tricampeã na
+                            maior
+                            premiação de Marketing Direto do Brasil</strong> e possui uma expertise única no país,
+                        entregando
+                        resultados promissores a seus clientes. E para isso, contamos com uma equipe qualificada que
+                        proporciona resultados a curto e a longo-prazo.
+                    </p>
+                    <p class="col-lg-12 justify">Vamos entender a sua missão, enxergar as suas necessidades e trabalhar
+                        incessantemente para
+                        trazer aderentes e recursos financeiros para sua Associação ou Organização, a fim de atingir
+                        seus objetivos.
+                    </p>
+                    <p class="col-lg-12 justify"><strong>Utilizamos as melhores técnicas de Comunicação Integrada e
+                            Marketing
+                            Direto para propor estratégias efetivas para sua causa.</strong> Mensuramos tudo do início
+                        ao fim, pois
+                        nenhuma boa decisão pode ser tomada sem dados.</p>
+
+                </div>
+                <div class="col-md-10 mx-auto col-lg-5">
+                    <img src="images/trofeus_pmk.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-2">
+                <div class="col-md-10 mx-auto col-lg-5">
+                    <img src="images/Carousel/marketing.svg" style="width:100%">
+                </div>
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="fw-bold lh-1 mb-3 red_logo">Não fazemos meramente Publicidade. Nem Marketing. </h1>
+                    <p class="col-lg-12 justify">Atuamos como parceiros e <strong>somos especialistas em Captação de
+                            Associados,
+                            Retenção e Otimização de contribuintes ao longo do tempo.</strong> Temos como principal
+                        objetivo uma
+                        comunicação mais humanizada, que é uma das mais eficazes do mercado e melhor para esse
+                        nicho.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / A PMK -->
+
+    <!-- Terceiro Setor -->
+    <div class="container-fluid bg_terceiro_setor" id="terceirosetor">
+        <div class="container px-4 py-5" id="terceiro_setor">
+            <h2 class="pb-2 border-bottom center">Veja o que podemos fazer juntos:</h2>
+            <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+                <div class="feature col bg_terceiro_item">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-1">
+                        <img src="images/pmk_bancoico.png" alt="Bootstrap" width="100">
+                    </div>
+                    <h3 class="orange_logo">Construir um Poderoso Banco de Dados de Simpatizantes
+                    </h3>
+                    <p class="justify">Isso é, formar uma <strong class="red_logo">base de milhares de
+                            pessoas</strong> que apoiam o seu projeto, de modo que você CONSIGA falar com elas sempre
+                        que
+                        quiser. Sem ruídos.</p>
+                    <p class="justify">Não vendemos banco de dados. Ao contrário, nós te ajudamos a construir um e a
+                        enriquecer aquele que você já possui para melhorar sua captação de recursos e aderentes à causa.
+                    </p>
+                </div>
+                <div class="feature col bg_terceiro_item">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-1">
+                        <img src="images/pmk_relico.png" alt="Bootstrap" width="100">
+                    </div>
+                    <h3 class="orange_logo">Criar um Programa de Relacionamento e Fidelização com seu público</h3>
+                    <p class="justify">Tudo automático e controlado.</p>
+                    <p class="justify">Desenvolvendo <strong class="red_logo">comunicações personalizadas e
+                            persuasivas</strong> e
+                        abordando seu público
+                        por diversas
+                        mídias e canais. De Mala Direta a E-mail Marketing, Redes Sociais e até Whatsapp.</p>
+                </div>
+                <div class="feature col bg_terceiro_item">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-1">
+                        <img src="images/pmk_joiaico.png" alt="Bootstrap" width="100">
+                    </div>
+                    <h3 class="orange_logo">Transformar seus aderentes em Contribuintes Regulares ou
+                        Mensais
+                        (o que é muito melhor)</h3>
+                    <p class="justify">Com uma boa estratégia de Fundraising, você forma uma <strong
+                            class="red_logo">carteira sólida e
+                            crescente de
+                            doadores
+                            generosos</strong>, que podem contribuir esporadicamente ou todos meses por meios de
+                        pagamento e
+                        convênios bancários com ALTA TAXA DE ADIMPLÊNCIA.</p>
+                    <p class="justify">Você vai enxergar quem paga, quem não paga, quando, onde e por quê.</p>
+                    <p class="justify">Tudo isso em paralelo aos canais de doação que você já possui.</p>
+                    <p class="justify">A PMK ajuda você a formar uma <strong>carteira de contribuintes mensais</strong>
+                        para não ficar refém apenas de uma minoria que ajuda esporadicamente. Além disso, nossas ações
+                        almejam também transformar esses que ajudam esporadicamente a contribuírem de forma mensal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Terceiro Setor -->
+
+    <!-- Ferramentas -->
+    <div class="container-fluid" id="ferramentas">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-10 offset-md-1">
+                    <h2 class="pb-2 center red_logo">Para cada estratégia e necessidade identificada, nós
+                        utilizamos determinadas ferramentas de Comunicação Integrada.</h2>
+                    <p class="center">Pode ser uma, duas, três ou todas elas. E se precisar, nós criamos mídias
+                        alternativas. <strong>Mas
+                            claro,
+                            tudo 100% mensurável.</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 accordion accordion-flush" id="Data_Base_Marketing">
+
+                    <div class="row" id="ferramentas_content">
+
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-um" aria-expanded="false" aria-controls="flush-um">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Consultoria_de_Call_Center_para_Captacao_de_Recursos.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Consultoria de Call Center para Captação
+                                                    de Recursos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-um" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Ajudamos o seu negócio a construir uma
+                                        captação de
+                                        recursos sólida, pronta para atender e ligar para os doadores da sua causa.
+                                        Acompanhamos os resultados diários e mensais para aplicar melhorias.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-dois" aria-expanded="false" aria-controls="flush-dois">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Data_Base_Marketing.svg" alt=""
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Data Base Marketing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-dois" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Essa é uma ferramenta que pode resultar
+                                        em muitas
+                                        oportunidades promissoras, mas para que isso aconteça, é preciso analisar os
+                                        dados coletados para tomada de decisões precisas que não afetem o resultado já
+                                        alcançado.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-quatro" aria-expanded="false" aria-controls="flush-quatro">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Viral_Marketing.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Viral Marketing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-quatro" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Acompanhando as principais tendências
+                                        de marketing,
+                                        conseguimos produzir conteúdo que possam viralizar com facilidade na internet,
+                                        de forma orgânica ou paga, e que agregam a sua causa.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-cinco" aria-expanded="false" aria-controls="flush-cinco">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Gestao_de_Conteudo.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Gestão de Conteúdo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-cinco" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">É preciso acompanhar os resultados,
+                                        elaborar uma
+                                        estratégia, revisar e promover conteúdos, desde que sejam de alta relevância
+                                        para o público. Por isso que uma Gestão de Conteúdo é essencial para o seu
+                                        negócio.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-seis" aria-expanded="false" aria-controls="flush-seis">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Gestao_de_Estatistica_e_Mensuracao_de_Resultados.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Gestão de Estatística e Mensuração de
+                                                    Resultados</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-seis" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Acompanhar resultados é essencial,
+                                        ainda mais quando
+                                        diversas ações são feitas em mais de uma plataforma. Por isso, acompanhamos tudo
+                                        que é feito nos canais, online e offline, para tomada de decisões e decidir
+                                        possíveis melhorias.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-sete" aria-expanded="false" aria-controls="flush-sete">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Desenvolvimento_Web.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Desenvolvimento Web</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-sete" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Para bons resultados, é preciso
+                                        desenvolver bons e
+                                        persuasivos sites. Nesse processo, assim como em todos os outros, contamos com
+                                        profissionais qualificados que conseguem atender às suas expectativas e metas de
+                                        captação de recursos.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-oito" aria-expanded="false" aria-controls="flush-oito">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Hospedagem_Online_e_Banco_de_Dados.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Hospedagem Online e Banco de Dados</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-oito" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Contamos com um banco de dados capaz de
+                                        armazenar todo o
+                                        conteúdo e material produzido ao longo do tempo, contando com uma equipe que
+                                        pode cuidar de suas informações com maior segurança, evitando assim a perda de
+                                        materiais ricos e importantes. </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-nove" aria-expanded="false" aria-controls="flush-nove">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Criacao_e_Gestao_de_Google_Adwords_e_Facebook_ADS.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Criação e Gestão de Google Adwords e
+                                                    Facebook ADS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-nove" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">
+                                        <p>Para resultados ainda maiores, o Google Adwords, Facebook ADS, entre outras
+                                            campanhas pagas nas redes sociais e mecanismos de buscas, são as ferramentas
+                                            que mais aplicamos para nossos clientes, que inclusive atende a demanda
+                                            particular de cada um, com resultados promissores.</p>
+                                        <p><a href="#contato">Fale com um especialista da PMK e saiba o que podemos
+                                                fazer para
+                                                você</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_laranja botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-dez" aria-expanded="false" aria-controls="flush-dez">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Concepcao_e_criacao_de_Gifts.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Concepção e criação de Gifts</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-dez" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Não só para ter novos aderentes à
+                                        causa, mas para
+                                        consolidar os que já ajudam, Gifts - presentes - é a melhor forma. Por isso, ao
+                                        avaliar sua causa e os doadores, conseguimos elaborar o presente ideal para que
+                                        abracem ainda mais sua causa.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                    </div>
+                    <div class="row">
+
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-onze" aria-expanded="false" aria-controls="flush-onze">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Portais_de_Conteudo.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Portais de Conteúdo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-onze" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Para aumentar o número de aderentes à
+                                        causa, um portal
+                                        de conteúdo atrativo, bem estruturado e com técnicas e critérios de SEO, é o que
+                                        fazemos para os nossos clientes e que funcionam como uma forma de explicar qual
+                                        a missão do seu negócio. Se bem aplicado, é possível alcançar centenas de
+                                        pessoas diariamente.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-doze" aria-expanded="false" aria-controls="flush-doze">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Sites_de_Cadastramento.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Sites de Cadastramento (landing pages)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-doze" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Ter um grande e poderoso banco de
+                                        nomes, e-mails e
+                                        endereços, para que seja possível uma comunicação assertiva com o seu público e
+                                        para que possam receber quaisquer informativos para que sejam aderentes à causa,
+                                        é o que pode fazer a sua Associação captar mais recursos e construir uma relação
+                                        com seus prospects.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-treze" aria-expanded="false" aria-controls="flush-treze">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Mobile_Marketing.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Mobile Marketing (SMS, Whatsapp)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-treze" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Mais de 155 milhões de pessoas usam
+                                        celular no Brasil,
+                                        por isso, é ideal e essencial pensar em estratégias que tenham uma ótima
+                                        performance pelo mobile - páginas, campanhas, e-mails marketing, aplicativos
+                                        etc. Por isso, fazemos tudo pensando na experiência do usuário pelo computador e
+                                        mobile.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-catorze" aria-expanded="false" aria-controls="flush-catorze">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Hot_Sites.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Hot Sites</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-catorze" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Páginas persuasivas para destacar uma
+                                        campanha é um dos
+                                        nossos carros chefes. Com essas páginas, é possível destacar determinadas ações,
+                                        deixando-a persuasiva, com elementos fortes e que podem ter altas taxas de
+                                        conversão.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-quinze" aria-expanded="false" aria-controls="flush-quinze">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/E-mail_Marketing.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">E-mail Marketing (Réguas de Comunicação)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-quinze" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">No Brasil, aproximadamente 92% das
+                                        pessoas usam
+                                        provedores de e-mail e 61% fazem uso deles diariamente, portanto, essa é uma das
+                                        razões para ser considerada uma das ferramentas mais poderosas do mercado. Há
+                                        quem diga que o e-mail marketing é uma ferramenta ultrapassada, mas não é
+                                        verdade, pois aqui na PMK, os resultados com e-mail marketing - aberturas,
+                                        cliques, conversão, cadastro, custo por envio etc. - são promissores e, com o
+                                        devido acompanhamento e aplicação de novas estratégias, os resultados continuam
+                                        crescendo.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-dezesseis" aria-expanded="false"
+                                    aria-controls="flush-dezesseis">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Anuncio_de_Resposta_Direta.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Anúncio de Resposta Direta</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-dezesseis" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">
+                                        <p>Segmentar um determinado público - persona - para estimular uma tomada de
+                                            ação imediata é com a gente. Quando você faz uma ação e a direciona para uma
+                                            parcela de pessoas que já possui interesse, os custos podem ser menores e as
+                                            conversões mais altas.</p>
+                                        <p>Mas, para fazer isso, é preciso uma análise precisa e e saber para quem
+                                            enviar sua campanha.</p>
+                                        <p><a href="#contato">Saiba mais falando com um especialista da PMK</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-dezessete" aria-expanded="false"
+                                    aria-controls="flush-dezessete">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Mala_Direta.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Mala Direta</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-dezessete" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">
+                                        <p>Há quem diga também que enviar cartas e correspondências
+                                            é uma estratégia ultrapassada, mas não é bem assim, desde que seja bem
+                                            aplicado,
+                                            acompanhado e estrategicamente posto em prática, os resultados podem
+                                            surpreender. Na PMK, aplicamos de forma gradual métodos eficazes que geram
+                                            alta
+                                            conversão e se financiam, gerando o menor custo possível para nossos
+                                            clientes.</p>
+                                        <p><a href="#contato">Fale com um especialista. Podemos te ajudar.</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-dezoito" aria-expanded="false" aria-controls="flush-dezoito">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Involvement_Movies.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Involvement Movies</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-dezoito" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">Não estamos falando de filmes de
+                                        produções
+                                        hollywoodianas, que custam bilhões, mas sim de filmes curtos, que passam uma
+                                        visão ampla do seu negócio e que podem gerar altas conversões - o que acontece
+                                        com nossos clientes.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="accordion-item">
+
+                                <div class="card bg_card_vermelho botao_click" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-dezenove" aria-expanded="false"
+                                    aria-controls="flush-dezenove">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/ferramentas/Involvement_Sounds.svg"
+                                                style="width: 45px; height: 45px" />
+                                            <div class="ms-3">
+                                                <p class="mb-1 white">Involvement Sounds (spot, podcast)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-dezenove" class="accordion-collapse collapse"
+                                    data-bs-parent="#Data_Base_Marketing">
+                                    <div class="accordion-body estilo_descricao">O Brasil é um dos países que está no
+                                        topo de ouvintes
+                                        que consomem podcasts e conteúdo no Youtube. Por isso, levar o conteúdo de
+                                        nossos clientes para esses ambientes é fundamental para o crescimento de sua
+                                        causa.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --- -->
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- / Ferramentas -->
+
+    <!-- Clientes -->
+    <div class="container-fluid" id="clientes">
+        <div class="container ">
+            <div class="row py-4">
+                <div class="col-md-12 red_logo">
+                    <img src="images/clientes_icone_inter.png" width="40px" style="float: left; margin-top:3px" />
+                    <h2>Clientes Internacionais</h2>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_luci" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_sacre_coeur" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_avenir" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_droit" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_el_pan" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_circulo" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_fpec" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_pro_europa" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_tomas" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_civitas" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_colombia" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="int_cruzada" />
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-md-12 red_logo">
+                    <img src="images/clientes_icone_brasil.png" width="40px" style="float: left; margin-top:3px" />
+                    <h2>Clientes no Brasil</h2>
+                </div>
+            </div>
+            <div class="row py-4" id="contato">
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_regina_fidei" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_adf" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_asc" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_apae" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_icrim" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_abem" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_kolping" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_legionarios" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_sao_bento" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_do_bem" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_aldeias" />
+                </div>
+                <div class="col-md-2 col-6">
+                    <img src="images/Clientes/base_cliente.png" width="100%" class="nac_derdic" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Clientes -->
+
+
+
+    <!-- Contato -->
+    <div class="container-fluid bg_contato" id="contato">
+        <div class="container py-4">
+            <h2 class="pb-2 center "><span class="orange_logo">Venha bater um papo com um </span><strong
+                    class="red_logo">Consultor Estratégico da
+                    PMK.</strong>
+            </h2>
+
+            <p class="center">
+            <table style="margin: auto;">
+                <tr>
+                    <td style="width: 300px;">
+                        <img src="images/pmk_foneicon.png" alt="fone" align="left" class="iconefone">
+                        <span class="red_logo">Se
+                            preferir, ligue:</span><br>
+                        <span class="orange_logo" style="font-size: 24px; font-weight: bold;">(11) 5081 2709</span>
+                    </td>
+                </tr>
+            </table>
+            </p>
+            <p class="center">[FORMULÀRIO]</p>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Rodape -->
+    <div class="container-fluid bg_footer">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <img alt="slogan" src="images/slogan.jpg" class="slogan">
+                </div>
+                <div class="col-md-4 center socialmedia_footer">
+                    <ul class="header_list_icon" style="max-width: 200px; margin: auto;">
+                        <li><img class="header_list_icon_svg" src="images/facebook_icon_white.svg" alt="Bootstrap"></li>
+                        <li><img class="header_list_icon_svg" src="images/linkedin_icon_white.svg" alt="Bootstrap"></li>
+                        <li><img class="header_list_icon_svg" src="images/whatsapp_icon_white.svg" alt="Bootstrap"></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 right footer_address white">
+                    <img alt="PMK" src="images/logo_footer.jpg" class="logoroda">
+                    <address class="textoendereco"> Rua Princesa Isabel, 86 – conjunto 44<br>Brooklin – São
+                        Paulo/SP<br>
+                        <strong><!--(11) 5054 3601-->(11) 5081-2709</strong>
+                    </address>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 center white">
+                    Copyright © 2017 PMK Digital Marketing - Missão, Visão e Valores
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

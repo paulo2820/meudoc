@@ -1,0 +1,445 @@
+.img_background_1,
+.img_background_2,
+.img_background_3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_background_1 {
+    background-image: url("../images/Carousel/fundraising.svg");
+}
+
+.img_background_2 {
+    background-image: url("../images/Carousel/fazemos.svg");
+}
+
+.img_background_3 {
+    background-image: url("../images/Carousel/ferramentas.svg");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.orange_logo {
+    color: #ec7126;
+}
+
+.red_logo {
+    color: #901c1a;
+}
+
+.bg_contato {
+    background-color: #f1efef;
+}
+
+.bg_footer {
+    background-color: #ec7126;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black {
+    color: #000000;
+}
+
+.yellow {
+    color: #fff200;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.no_padding {
+    padding: 0;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+.nav-link {
+    color: #ec7126;
+}
+
+.botao_click {
+    cursor: pointer;
+}
+
+.nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #901c1a;
+}
+
+.estilo_descricao {
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.col-md-6 {
+    background-color: aqua;
+}
+
+/* Header */
+
+.navbar-nav {
+    color: #ec7126;
+}
+
+.navbar-nav:hover {
+    color: #901c1a;
+}
+
+.header_list_icon {
+    list-style: none;
+    min-width: 200px;
+}
+
+.header_list_icon li {
+    float: left;
+    width: 33%;
+
+}
+
+.header_list_icon_svg {
+    width: 100%;
+    max-width: 30px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* Caroussel */
+/* .carousel {
+    margin-bottom: 4rem;
+} */
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.bg_color_caroussel {
+    fill: #ec7126;
+}
+
+/* Terceiro Setor */
+.bg_terceiro_setor {
+    background-color: #ede1d9;
+}
+
+/* Ferramentas */
+.bg_card_laranja {
+    background-color: #ec7126;
+    border: solid 1px #ec7126;
+}
+
+.bg_card_vermelho {
+    background-color: #901c1a;
+    border: solid 1px #901c1a;
+}
+
+.color_img_ferramenta {
+    color: #ffffff !important;
+}
+
+/* .bg_terceiro_item {
+    background-color: rgba(255, 255, 255, 0.6);
+} */
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .socialmedia_footer {
+        margin: 40px 0;
+    }
+}
+
+/* Clientes */
+
+.int_luci,
+.int_sacre_coeur,
+.int_avenir,
+.int_droit,
+.int_el_pan,
+.int_circulo,
+.int_fpec,
+.int_pro_europa,
+.int_tomas,
+.int_civitas,
+.int_colombia,
+.int_cruzada,
+.nac_regina_fidei,
+.nac_apae,
+.nac_icrim,
+.nac_abem,
+.nac_adf,
+.nac_kolping,
+.nac_asc,
+.nac_legionarios,
+.nac_sao_bento,
+.nac_do_bem,
+.nac_aldeias,
+.nac_derdic {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*******************************/
+.int_luci {
+    background-image: url("../images/Clientes/cliente_131.png");
+}
+
+.int_luci:hover {
+    background-image: url("../images/Clientes/cliente_132.png");
+}
+
+/*******************************/
+.int_sacre_coeur {
+    background-image: url("../images/Clientes/cliente_141.png");
+}
+
+.int_sacre_coeur:hover {
+    background-image: url("../images/Clientes/cliente_142.png");
+}
+
+/*******************************/
+.int_avenir {
+    background-image: url("../images/Clientes/cliente_151.png");
+}
+
+.int_avenir:hover {
+    background-image: url("../images/Clientes/cliente_152.png");
+}
+
+/*******************************/
+.int_droit {
+    background-image: url("../images/Clientes/cliente_161.png");
+}
+
+.int_droit:hover {
+    background-image: url("../images/Clientes/cliente_162.png");
+}
+
+/*******************************/
+.int_el_pan {
+    background-image: url("../images/Clientes/cliente_171.png");
+}
+
+.int_el_pan:hover {
+    background-image: url("../images/Clientes/cliente_172.png");
+}
+
+/*******************************/
+.int_circulo {
+    background-image: url("../images/Clientes/cliente_201.png");
+}
+
+.int_circulo:hover {
+    background-image: url("../images/Clientes/cliente_202.png");
+}
+
+/*******************************/
+.int_fpec {
+    background-image: url("../images/Clientes/cliente_211.png");
+}
+
+.int_fpec:hover {
+    background-image: url("../images/Clientes/cliente_212.png");
+}
+
+/*******************************/
+.int_pro_europa {
+    background-image: url("../images/Clientes/cliente_221.png");
+}
+
+.int_pro_europa:hover {
+    background-image: url("../images/Clientes/cliente_222.png");
+}
+
+/*******************************/
+.int_tomas {
+    background-image: url("../images/Clientes/cliente_231.png");
+}
+
+.int_tomas:hover {
+    background-image: url("../images/Clientes/cliente_232.png");
+}
+
+/*******************************/
+.int_civitas {
+    background-image: url("../images/Clientes/cliente_241.png");
+}
+
+.int_civitas:hover {
+    background-image: url("../images/Clientes/cliente_242.png");
+}
+
+/*******************************/
+.int_cruzada {
+    background-image: url("../images/Clientes/cliente_261.png");
+}
+
+.int_cruzada:hover {
+    background-image: url("../images/Clientes/cliente_262.png");
+}
+
+/*******************************/
+.int_colombia {
+    background-image: url("../images/Clientes/cliente_251.png");
+}
+
+.int_colombia:hover {
+    background-image: url("../images/Clientes/cliente_252.png");
+}
+
+/*******************************/
+.nac_regina_fidei {
+    background-image: url("../images/Clientes/cliente_191.png");
+}
+
+.nac_regina_fidei:hover {
+    background-image: url("../images/Clientes/cliente_192.png");
+}
+
+/*******************************/
+.nac_apae {
+    background-image: url("../images/Clientes/cliente_21.png");
+}
+
+.nac_apae:hover {
+    background-image: url("../images/Clientes/cliente_22.png");
+}
+
+/*******************************/
+.nac_icrim {
+    background-image: url("../images/Clientes/cliente_31.png");
+}
+
+.nac_icrim:hover {
+    background-image: url("../images/Clientes/cliente_32.png");
+}
+
+/*******************************/
+.nac_abem {
+    background-image: url("../images/Clientes/cliente_41.png");
+}
+
+.nac_abem:hover {
+    background-image: url("../images/Clientes/cliente_42.png");
+}
+
+/*******************************/
+.nac_adf {
+    background-image: url("../images/Clientes/cliente_51.png");
+}
+
+.nac_adf:hover {
+    background-image: url("../images/Clientes/cliente_52.png");
+}
+
+/*******************************/
+.nac_kolping {
+    background-image: url("../images/Clientes/cliente_61.png");
+}
+
+.nac_kolping:hover {
+    background-image: url("../images/Clientes/cliente_62.png");
+}
+
+/*******************************/
+.nac_asc {
+    background-image: url("../images/Clientes/cliente_71.png");
+}
+
+.nac_asc:hover {
+    background-image: url("../images/Clientes/cliente_72.png");
+}
+
+/*******************************/
+.nac_legionarios {
+    background-image: url("../images/Clientes/cliente_81.png");
+}
+
+.nac_legionarios:hover {
+    background-image: url("../images/Clientes/cliente_82.png");
+}
+
+/*******************************/
+.nac_sao_bento {
+    background-image: url("../images/Clientes/cliente_91.png");
+}
+
+.nac_sao_bento:hover {
+    background-image: url("../images/Clientes/cliente_92.png");
+}
+
+/*******************************/
+.nac_do_bem {
+    background-image: url("../images/Clientes/cliente_101.png");
+}
+
+.nac_do_bem:hover {
+    background-image: url("../images/Clientes/cliente_102.png");
+}
+
+/*******************************/
+.nac_aldeias {
+    background-image: url("../images/Clientes/cliente_111.png");
+}
+
+.nac_aldeias:hover {
+    background-image: url("../images/Clientes/cliente_112.png");
+}
+
+/*******************************/
+.nac_derdic {
+    background-image: url("../images/Clientes/cliente_121.png");
+}
+
+.nac_derdic:hover {
+    background-image: url("../images/Clientes/cliente_122.png");
+}
+
+/*********************/
+.footer_address {
+    font-size: 14px;
+}
+
+.slogan {
+    width: 100%;
+    max-width: 258px;
+}
